@@ -6,7 +6,7 @@ public class HelpDesk {
     private final Queue<Enquiry> enquires = new ArrayDeque<>();
 
     public void enquire(Customer customer, Category category) {
-        enquires.offer(new Enquiry(Customer.JACK, Category.PRINTER));
+        enquires.offer(new Enquiry(customer, category));
     }
 
     public void processAllEnquires() {
