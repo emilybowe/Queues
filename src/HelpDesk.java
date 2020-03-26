@@ -10,6 +10,7 @@ public class HelpDesk {
 
     public void processAllEnquires() {
         final Enquiry enquiry = enquires.poll();
+        enquiry.getCustomer().reply("turn off and on again");
     }
 
 }
