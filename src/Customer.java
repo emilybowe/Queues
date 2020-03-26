@@ -2,7 +2,7 @@ public class Customer {
 
     private String name;
 
-    Customer (String name) {
+    public Customer (String name) {
         this.name = name;
     }
     public static Customer JACK = new Customer("Jack");
