@@ -10,7 +10,7 @@ public class Customer {
     public static Customer MARY = new Customer("Mary");
 
     public void reply(String message) {
-        System.out.printf(name + message);
+        System.out.print(name + message);
     }
 
 }
